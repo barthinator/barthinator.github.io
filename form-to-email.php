@@ -5,7 +5,7 @@ if(!isset($_POST['submit'])){
 else{
   echo "Thank you. Your email was sent! You will be redirected back to the page.";
 
-  //sleep(5);
+  sleep(5);
 
   ob_start(); // ensures anything dumped out will be caught
   // do stuff here
